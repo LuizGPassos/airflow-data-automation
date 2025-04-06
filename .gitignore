@@ -1,0 +1,43 @@
+# Ignora ambientes virtuais
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Ignora arquivos de ambiente
+.env
+.env.*
+
+# Ignora logs do Airflow
+logs/
+
+# Ignora banco de dados local do Airflow
+airflow.db
+unittests.db
+
+# Ignora arquivos de configuração sensíveis
+airflow.cfg
+airflow-webserver.pid
+webserver_config.py
+standalone_admin_password.txt
+
+# Ignora arquivos compilados Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignora arquivos de teste e cobertura
+.pytest_cache/
+.coverage
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Ignora arquivos de sistema e IDEs
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
